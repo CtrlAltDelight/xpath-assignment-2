@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #34495e;
+            font-size: 1.8em;
+            margin-top: 40px;
+            border-bottom: 2px solid #2980b9;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #ecf0f1;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        li.special {
+            background-color: #f1c40f;
+            border-color: #f39c12;
+            color: #fff;
+        }
+
+        .dish {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #2980b9;
+        }
+
+        .description {
+            font-style: italic;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #27ae60;
+        }
+
+        .calories {
+            font-size: 0.8em;
+            color: #e74c3c;
+        }
+
+        #footer {
+            text-align: center;
+            font-size: 0.9em;
+            margin-top: 50px;
+            color: #7f8c8d;
+        }
+
+        /* Hover effect for menu items */
+        li:hover {
+            background-color: #dcdde1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gourmet Restaurant Menu</h1>
+
+    <h2>Breakfast</h2>
+    <ul>
+        <li>
+            <span class="dish">Avocado Toast</span>
+            <span class="description">(Sourdough toast, avocado, cherry tomatoes)</span>
+            <span class="price">$9.99</span>
+            <span class="calories">350 kcal</span>
+        </li>
+        <li>
+            <span class="dish">Eggs Benedict</span>
+            <span class="description">(Poached eggs, ham, hollandaise sauce)</span>
+            <span class="price">$11.49</span>
+            <span class="calories">450 kcal</span>
+        </li>
+        <li class="special">
+            <span class="dish">Blueberry Pancakes</span>
+            <span class="description">(Stack of fluffy pancakes, fresh blueberries, maple syrup)</span>
+            <span class="price">$8.99</span>
+            <span class="calories">600 kcal</span>
+        </li>
+    </ul>
+
+    <h2>Lunch</h2>
+    <ul>
+        <li>
+            <span class="dish">Chicken Caesar Salad</span>
+            <span class="description">(Grilled chicken, romaine lettuce, Caesar dressing)</span>
+            <span class="price">$12.49</span>
+            <span class="calories">420 kcal</span>
+        </li>
+        <li class="special">
+            <span class="dish">Grilled Salmon Sandwich</span>
+            <span class="description">(Grilled salmon, arugula, garlic aioli, whole-grain bun)</span>
+            <span class="price">$14.99</span>
+            <span class="calories">550 kcal</span>
+        </li>
+    </ul>
+
+    <h2>Dinner</h2>
+    <ul>
+        <li>
+            <span class="dish">Filet Mignon</span>
+            <span class="description">(8 oz tenderloin, mashed potatoes, asparagus)</span>
+            <span class="price">$24.99</span>
+            <span class="calories">700 kcal</span>
+        </li>
+        <li>
+            <span class="dish">Lobster Risotto</span>
+            <span class="description">(Maine lobster, creamy Arborio rice, parmesan)</span>
+            <span class="price">$27.99</span>
+            <span class="calories">650 kcal</span>
+        </li>
+    </ul>
+
+    <h2>Desserts</h2>
+    <ul>
+        <li>
+            <span class="dish">Tiramisu</span>
+            <span class="description">(Mascarpone, espresso-soaked ladyfingers, cocoa)</span>
+            <span class="price">$7.99</span>
+            <span class="calories">420 kcal</span>
+        </li>
+        <li>
+            <span class="dish">Cheesecake</span>
+            <span class="description">(Classic New York cheesecake, graham cracker crust)</span>
+            <span class="price">$6.99</span>
+            <span class="calories">520 kcal</span>
+        </li>
+    </ul>
+
+    <p id="footer">Prices are subject to change without notice. All menu items contain allergens. Contact us for more details.</p>
+</body>
+</html>
